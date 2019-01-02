@@ -1,0 +1,11 @@
+{% extends 'layouts.html'%}
+{% block body%}
+<h1>Registration Form</h1>
+
+<form method="POST" action="">
+	<div class="form-group">
+		{{render_field(form.name,class_='form-control')}}
+	</div>
+	
+</form>
+{%endblock%}
